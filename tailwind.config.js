@@ -3,8 +3,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ["body"],
+        bolder: ["bold"],
+        text: ["text"],
         // poppins: ["body, sans-serif"],
+      },
+      backgroundImage: {
+        IntroPattern: "url(/src/Assets/IntroSvg.svg)",
       },
     },
   },
