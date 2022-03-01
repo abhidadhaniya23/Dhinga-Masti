@@ -8,7 +8,8 @@ module.exports = {
         // poppins: ["body, sans-serif"],
       },
       backgroundImage: {
-        IntroPattern: "url(/src/Assets/IntroSvg.svg)",
+        IntroPatternPhone: "url(/src/Assets/phoneBg.svg)",
+        IntroPatternScreen: "url(/src/Assets/screenBg.svg)",
       },
     },
   },

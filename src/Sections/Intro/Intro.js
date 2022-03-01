@@ -11,7 +11,7 @@ const Intro = () => {
   };
   return (
     <>
-      <section className="h-auto text-white bg-center bg-cover relative md:h-[100vh] flex justify-center items-center bg-IntroPattern">
+      <section className="h-auto text-white bg-center bg-cover relative md:h-[100vh] flex justify-center items-center bg-IntroPatternPhone md:bg-IntroPatternScreen">
         <Header />
         <Wave />
         <motion.img src={avatar} variants={avatarAnimate} initial="hidden" animate="show" className="absolute top-72 right-52 trans z-10 w-[35rem]" alt="" />
