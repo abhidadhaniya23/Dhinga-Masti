@@ -14,7 +14,7 @@ const Intro = () => {
       <section className="h-auto text-white bg-center bg-cover relative md:h-[100vh] flex justify-center items-center bg-IntroPattern">
         <Header />
         <Wave />
-        <motion.img src={avatar} variants={avatarAnimate} initial="hidden" animate="show" className="absolute top-72 right-52 trans z-10 w-[35rem]" alt="" />
+        <motion.img src={avatar} variants={avatarAnimate} initial="hidden" animate="show" className=" absolute top-[680px] right-2 sm:absolute sm:top-72 sm:right-52 sm:trans sm:z-10 sm:w-[35rem]" alt="" />
       </section>
     </>
   );
