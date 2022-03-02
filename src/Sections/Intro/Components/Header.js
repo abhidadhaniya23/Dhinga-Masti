@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const Header = () => {
+const Header = () => {   
   const titleAnimate = {
     heading: {
       hidden: { opacity: 0, y: -100 },
