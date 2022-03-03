@@ -14,6 +14,8 @@ module.exports = {
         IntroPatternPhone: "url(/src/Assets/phoneBg.svg)",
         IntroPatternScreen: "url(/src/Assets/screenBg.svg)",
         QuoteBgPattern: "url(/src/Assets/quoteBg.svg)",
+        Polygon:"url(/src/Assets/Polygon.png)",
+        polygonScatter:"url(/src/Assets/polygonScatter.png)",
       },
     },
   },
