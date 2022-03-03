@@ -6,12 +6,14 @@ const FeaturesHead = () => {
         <>
             <section className="bg-[#F3F4F5]">
                 <h1 className="text-center pt-24">FEATURES</h1>
-            <div className="flex flex-row justify-center items-center container px-16 ">
+            <div className="flex flex-wrap justify-center items-center container px-16 ">
                 <Card />
                 <Card />
                 <Card />
+                <Card />
+                <Card />
+        
             </div>
-
             </section>
         </>
     );
