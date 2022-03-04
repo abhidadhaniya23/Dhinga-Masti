@@ -11,7 +11,6 @@ const MultipleGames = () =>{
       <GamesCards />
       <GamesCards />
       </div>
-      
       </>
     );
 };
