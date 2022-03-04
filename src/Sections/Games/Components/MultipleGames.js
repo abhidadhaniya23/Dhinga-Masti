@@ -4,8 +4,8 @@ import GamesCards from "./GameCards";
 const MultipleGames = () =>{
     return(
       <>
-      <div className="mt-16">
-          <h1 className="text-center"> Play Games </h1>
+      <div className="pt-16 bg-[#F3F4F5]">
+          <h1 className="text-center mb-24"> Play Games </h1>
       <GamesCards />
       <GamesCards />
       <GamesCards />

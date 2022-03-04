@@ -1,24 +1,20 @@
 import React from "react";
-import childPicture from "../../../Assets/child.png";
-
+import games from "../../../Assets/games.jpeg";
+// import dummy from "../../../Assets/dummy.jpeg";
 
 const GamesCards = () => {
 
     return (
-        <div className="p-4 md:w-1/2 justify-center items-center sm:ml-96">
-            <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-                <div className="flex items-center mb-3">
-                    <h2 className="text-gray-900 text-lg title-font font-medium">Shooting Stars</h2>
-                </div>
-                <img src={childPicture} className="pt-12 relative w-32" alt="" />
-             
-                <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.Blue bottle crucifix vinyl post-ironic four
-                    dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.Blue bottle crucifix vinyl post-ironic four
-                    dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                    
+        <div className="bg-white sm:w-[56rem] sm:h-[15rem] w-80  h-[8rem]  flex flex-row m-4 sm:ml-80 ml-12 sm:mt-14 mt-12 odd:flex-row-reverse rounded-xl overflow-hidden">
+            <div className="sm:flex">
+                <img className="object-cover w-[48rem] h-32 sm:w-[50rem] sm:h-[15rem] rounded-t " src={games} />
+            </div>
+            <div className="flex flex-col sm:mt-3 sm:p-4 ml-9 overflow-hidden sm:text-base text-xs ">
+                <p className="sm:text-2xl text-sm  mt-4"> Shooting Stars</p>
+                <div className=" h-1 w-16 mt-2  mb-3 bg-yellow-400 rounded text-black"></div>
+                Gastropub indxgo juice poutine.Blue bottle crucifix vinyl post-ironic four
+                dollar toast vegan taxidermy. Gastropub indxgo juice poutine.Blue bottle crucifix vinyl post-ironic four
+                dollar toast  gan taxidermy.
             </div>
         </div>
     );
