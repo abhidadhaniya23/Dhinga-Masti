@@ -16,6 +16,7 @@ module.exports = {
         QuoteBgPattern: "url(/src/Assets/quoteBg.svg)",
         Polygon:"url(/src/Assets/Polygon.png)",
         polygonScatter:"url(/src/Assets/polygonScatter.png)",
+        TeamBgGradient:"url(/src/Assets/TeamGradient.svg)",
       },
     },
   },

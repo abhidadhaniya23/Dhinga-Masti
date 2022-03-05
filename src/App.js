@@ -3,7 +3,7 @@ import Intro from "./Sections/Intro/Intro";
 import Quote from "./Sections/Quote/Quote";
 import FeaturesHead from "./Sections/Features/FeaturesHead";
 import MultipleGames from "./Sections/Games/Components/MultipleGames";
-
+import TeamIntro from "./Sections/Team/Components/TeamIntro";
 // import Navbar from "./Sections/Navbar/Navbar";
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
       <FeaturesHead />
       <Quote />
       <MultipleGames />
+      <TeamIntro />
     </>
   );
 }
