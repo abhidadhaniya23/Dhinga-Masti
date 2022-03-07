@@ -12,7 +12,7 @@ const FeaturesHead = () => {
     },
     {
       title: "Problem solving",
-      color: "redPink",
+      color: "orangeColor",
       icon: "fa-solid fa-people-carry-box",
       desc: "Many games create an environment to solve increasingly complicated problems which improves decision making skills.",
     },
@@ -24,7 +24,7 @@ const FeaturesHead = () => {
     },
     {
       title: "Creativity",
-      color: "orangeColor",
+      color: "redPink",
       icon: "fa-solid fa-rainbow",
       desc: "Playing games helps to think out of the box to solve any problem in real-life.",
     },
