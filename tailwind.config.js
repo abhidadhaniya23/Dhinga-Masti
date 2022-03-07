@@ -1,6 +1,6 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  safelist: ["bg-orangeColor", "bg-purpleColor", "bg-redPink", "bg-cyanColor", "bg-greenColor"],
+  safelist: ["bg-orangeColor", "group-hover:text-orangeColor", "hover:bg-orangeColor/10", "bg-purpleColor", "group-hover:text-purpleColor", "hover:bg-purpleColor/10", "bg-redPink", "group-hover:text-redPink", "hover:bg-redPink/10", "bg-cyanColor", "group-hover:text-cyanColor", "hover:bg-cyanColor/10", "bg-greenColor", "group-hover:text-greenColor", "hover:bg-greenColor/10"],
   theme: {
     extend: {
       fontFamily: {
