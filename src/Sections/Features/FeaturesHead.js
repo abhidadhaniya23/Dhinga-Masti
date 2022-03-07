@@ -37,14 +37,12 @@ const FeaturesHead = () => {
   ];
   return (
     <>
-      <section className="relative w-full bg-fixed bg-cover bg-center bg-featuresBg">
-        <div className="backdrop-blur-3xl">
-          <h1 className="text-center pt-24">FEATURES</h1>
-          <div className="flex flex-wrap justify-center items-center mx-auto container px-16 pt-10">
-            {cards.map((card, index) => (
-              <Card title={card.title} icon={card.icon} color={card.color} key={index} index={index} desc={card.desc}></Card>
-            ))}
-          </div>
+      <section className="relative w-full">
+        <h1 className="text-center pt-24">FEATURES</h1>
+        <div className="flex flex-wrap justify-center items-center mx-auto container px-16 pt-10">
+          {cards.map((card, index) => (
+            <Card title={card.title} icon={card.icon} color={card.color} key={index} index={index} desc={card.desc}></Card>
+          ))}
         </div>
       </section>
     </>

@@ -20,7 +20,7 @@ const GamesCards = () => {
         <h2 className="text-4xl"> Shooting Stars</h2>
         <span className=" h-1 w-16 mt-2  mb-3 bg-yellow-400 rounded text-black"></span>
         <p className="text-base">Gastropub indxgo juice poutine.Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.Blue bottle crucifix vinyl post-ironic four Gastropub indxgo juice poutine.</p>
-        <button className="items-center justify-center w-36 mt-4 px-1 py-1 font-text text-base text-white rounded-full cursor-pointer outline outline-black focus:outline-offset-4 outline-offset-0 duration-100 bg-black">Play Games</button>
+        <button className="items-center justify-center w-36 mt-4 p-2 font-text text-base text-white rounded-full cursor-pointer outline outline-black focus:outline-offset-4 outline-offset-0 duration-100 bg-black">Play Games</button>
       </div>
     </div>
   );
