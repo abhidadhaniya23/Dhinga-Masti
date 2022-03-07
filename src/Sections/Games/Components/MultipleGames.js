@@ -2,6 +2,8 @@ import React from "react";
 import GamesCards from "./GameCards";
 
 const MultipleGames = () => {
+  
+  
   return (
     <>
       <div className="pt-16 bg-[#F3F4F5] pb-20">
