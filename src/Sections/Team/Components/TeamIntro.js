@@ -44,10 +44,8 @@ const TeamIntro = () => {
                 {team.map((teamcards, index) => (
                      <TeamCards name={teamcards.name} key={index} index={index} skill={teamcards.skill} about={teamcards.about} img={code_with_alien} ></TeamCards>   
                     ))}
-
                 </div>
             </section>
-
         </>
     );
 };
