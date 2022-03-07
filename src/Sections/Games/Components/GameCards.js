@@ -15,7 +15,7 @@ const GamesCards = () => {
         
         <div className="flex flex-row w-1/2 h-56 my-4 rounded-xl bg-gray-300 odd:flex-row-reverse mx-auto justify-center items-center  overflow-hidden">
             <div className="w-full h-full">
-                <img className="object-cover h-full w-full" src={games} />
+                <img className="object-cover h-full w-full" src={games} alt="Games"/>
             </div>
             <div className="flex flex-col justify-center items-start px-8">
                 <h2 className="sm:text-2xl text-sm"> Shooting Stars</h2>
