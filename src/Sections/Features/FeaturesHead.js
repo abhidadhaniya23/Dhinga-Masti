@@ -37,7 +37,7 @@ const FeaturesHead = () => {
   ];
   return (
     <>
-      <section className="relative w-full min-h-screen overflow-x-hidden bg-fixed bg-cover bg-featuresBg">
+      <section className="relative w-full overflow-x-hidden bg-fixed bg-cover bg-featuresBg">
         <div className="backdrop-blur-3xl">
           <h1 className="text-center pt-24">FEATURES</h1>
           <div className="flex flex-wrap justify-center items-center mx-auto container px-16 pt-10">

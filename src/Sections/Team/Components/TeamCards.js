@@ -1,26 +1,22 @@
-import React from "react";
-import games from "../../../Assets/games.jpeg"
+import SocialIcon from "./SocialIcon";
 
-
-const TeamCards = ({name, skill,about,img}) => {
-    return (
-        <>
-            <div className="flex flex-row lg:first:ml-32 lg:mt-8 ">
-                <div className="flex flex-wrap lg:w-[34rem] w-72 -ml-24 lg:ml-0 rounded-xl overflow-hidden bg-gray-200/80 backdrop-blur-3xl lg:mr-8 mb-8">
-                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                        <img alt="team" className=" rounded-full lg:rounded-none object-cover object-center lg:mt-0 mt-4 h-28 w-28 lg:h-48 lg:w-[35rem] sm:mb-0 mb-4" src={img} />
-                        <div className="flex-col sm:pl-8">
-                            <h2 className="title-font font-medium text-3xl text-gray-900">{name}</h2>
-                            <h3 className=" mb-1">{skill}</h3>
-                            <div className="h-1 w-20 lg:ml-0 ml-24 bg-yellow-400 rounded"></div>
-                            <p className="mb-8 text-sm mt-4 sm:mt-4">{about}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </>
-
-    );
+const TeamCards = ({ name, skill, img, color }) => {
+  return (
+    <>
+      <div className="w-10/12 md:w-[30%] md:first:ml-56 h-[40rem] md:h-44 flex justify-center items-center flex-col md:flex-row bg-white rounded-lg m-5 overflow-hidden">
+        <div className="w-full md:w-[20rem] md:h-full">
+          <img alt="team" className="w-full h-full object-cover object-center" src={img} />
+        </div>
+        <div className="flex w-full flex-col h-full justify-around md:justify-evenly items-center text-center md:items-start md:pl-5">
+          <h2 className="font-medium text-3xl text-gray-900">{name}</h2>
+          <h3 className="-mt-5">{skill}</h3>
+          <div className="flex flex-row justify-center items-center">
+            <SocialIcon color={color} />
+          </div>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default TeamCards;

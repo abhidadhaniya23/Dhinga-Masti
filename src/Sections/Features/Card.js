@@ -8,7 +8,7 @@ const Card = ({ title, desc, color, icon }) => {
         <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
         <circle cx="12" cy="7" r="4"></circle>
       </svg> */}
-      <div className={`-mt-24 bg-${color} group-hover:scale-125 shadow-xl duration-150 mx-auto w-16 h-16 flex justify-center rounded-full items-center`}>
+      <div className={`-mt-24 text-${color} bg-white group-hover:scale-125 shadow-xl duration-150 mx-auto w-16 h-16 flex justify-center rounded-full items-center`}>
         <i class={`text-2xl ${icon}`}></i>
       </div>
       <h2 className={`text-3xl md:mt-10 duration-200 group-hover:text-${color}`}>{title}</h2>
