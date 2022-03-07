@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import playBtn from "../../../Assets/playBtn.png";
 
-const Header = () => {   
+const Header = () => {
   const titleAnimate = {
     heading: {
       hidden: { opacity: 0, y: -100 },
@@ -18,7 +18,7 @@ const Header = () => {
   };
   return (
     <div className="flex-wrap w-auto h-screen sm:relative relative md:w-[60rem] sm:-top-20 justify-items-center">
-      <motion.h1 variants={titleAnimate.heading} initial="hidden" animate="show" className=" sm:py-3 md:mx-0 py-8 mx-7 sm:mt-64 mt-[300px] text-center md:text-left">
+      <motion.h1 variants={titleAnimate.heading} initial="hidden" animate="show" className="text-orangeColor-0 sm:py-3 md:mx-0 py-8 mx-7 sm:mt-64 mt-[300px] text-center md:text-left">
         Dhinga Masti
       </motion.h1>
       <motion.p variants={titleAnimate.description} initial="hidden" animate="show" className="text-center sm:w-3/5 sm:opacity-90 md:text-left ">
