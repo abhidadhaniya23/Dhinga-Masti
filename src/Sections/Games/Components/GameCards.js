@@ -1,6 +1,5 @@
 import React from "react";
 import games from "../../../Assets/games.jpeg";
-// import dummy from "../../../Assets/dummy.jpeg";
 
 const GamesCards = () => {
   return (

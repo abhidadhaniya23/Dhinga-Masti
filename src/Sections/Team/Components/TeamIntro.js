@@ -1,31 +1,35 @@
 import React from "react";
 import TeamCards from "./TeamCards";
-import code_with_alien from "../../../Assets/code_with_alien.png";
+import abhi from "../../../Assets/Team/abhi.png";
+import vanshika from "../../../Assets/Team/vanshika.png";
+import rupen from "../../../Assets/Team/rupen.png";
+import vaidik from "../../../Assets/Team/vaidik.png";
 
 const TeamIntro = () => {
   const team = [
     {
       name: "Rupen Bhimani",
-      skill: "Web-Developer",
+      skill: "Front end Web-Developer",
       color: "purpleColor",
-      img: "code_with_alien.png",
-    },
-    {
-      name: "Abhi Dadhaniya",
-      skill: "Web-developer",
-      color: "orangeColor",
-      img: "",
-    },
-    {
-      name: "Vanshika Gupta",
-      skill: "programmer",
-      color: "cyanColor",
-      img: "",
+      img: rupen,
     },
     {
       name: "Vaidik Modi",
-      skill: "cloud in air",
+      skill: "Database Technology",
       color: "redPink",
+      img: vaidik,
+    },
+    {
+      name: "Abhi Dadhaniya",
+      skill: "Full stack Web-developer",
+      color: "orangeColor",
+      img: abhi,
+    },
+    {
+      name: "Vanshika Gupta",
+      skill: "Python Programming",
+      color: "cyanColor",
+      img: vanshika,
     },
   ];
 
@@ -36,7 +40,7 @@ const TeamIntro = () => {
         <div className=" container mx-auto">
           <div className="flex justify-center items-center flex-row md:-ml-16 flex-wrap py-20">
             {team.map((teamcards, index) => (
-              <TeamCards name={teamcards.name} color={teamcards.color} key={index} skill={teamcards.skill} img={code_with_alien}></TeamCards>
+              <TeamCards name={teamcards.name} color={teamcards.color} key={index} skill={teamcards.skill} img={teamcards.img}></TeamCards>
             ))}
           </div>
         </div>
