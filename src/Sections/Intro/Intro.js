@@ -13,7 +13,7 @@ const Intro = () => {
     <>
       <section className="h-auto overflow-hidden text-white bg-center bg-cover relative md:h-[100vh] flex justify-center items-center bg-IntroPatternPhone md:bg-IntroPatternScreen">
         <Header />
-        <IntroWave />
+        {/* <IntroWave /> */}
         <motion.img src={avatar} variants={avatarAnimate} initial="hidden" animate="show" className="absolute top-[680px] -right-4 sm:absolute sm:top-72 sm:right-52 sm:z-10 sm:w-[35rem]" alt="" />
       </section>
     </>

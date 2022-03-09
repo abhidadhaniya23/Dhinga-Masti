@@ -12,35 +12,47 @@ const TeamIntro = () => {
       skill: "Front end Web-Developer",
       color: "purpleColor",
       img: rupen,
+      twitter: "https://twitter.com/BhimaniRupen",
+      insta: "https://www.instagram.com/rupen_bhimani/",
+      github: "https://github.com/rupen109",
     },
     {
       name: "Vaidik Modi",
       skill: "Database Technology",
       color: "redPink",
       img: vaidik,
+      twitter: "https://twitter.com/vaidik_modi",
+      insta: "https://www.instagram.com/ll_v_m_408_ll/",
+      github: "https://github.com/vaidik408",
     },
     {
       name: "Abhi Dadhaniya",
       skill: "Full stack Web-developer",
       color: "orangeColor",
       img: abhi,
+      twitter: "https://twitter.com/AbhiDadhaniya3",
+      insta: "https://www.instagram.com/_abhi_dadhaniya_/",
+      github: "https://github.com/abhidadhaniya23",
     },
     {
       name: "Vanshika Gupta",
       skill: "Python Programming",
       color: "cyanColor",
       img: vanshika,
+      twitter: "https://twitter.com/vanshika_0111",
+      insta: "https://www.instagram.com/vanshika_0111/",
+      github: "https://github.com/vanshika0111",
     },
   ];
 
   return (
     <>
-      <section className="relative w-full bg-IntroPatternPhone md:bg-IntroPatternScreen bg-cover">
-        <h2 className="text-center pt-24 text-white text-5xl ">Our Team</h2>
-        <div className=" container mx-auto">
-          <div className="flex justify-center items-center flex-row md:-ml-16 flex-wrap py-20">
+      <section className="relative w-full bg-cover bg-IntroPatternPhone md:bg-IntroPatternScreen">
+        <h2 className="pt-24 text-5xl text-center text-white ">Our Team</h2>
+        <div className="container mx-auto ">
+          <div className="flex flex-row flex-wrap items-center justify-center py-20 md:-ml-16">
             {team.map((teamcards, index) => (
-              <TeamCards name={teamcards.name} color={teamcards.color} key={index} skill={teamcards.skill} img={teamcards.img}></TeamCards>
+              <TeamCards name={teamcards.name} color={teamcards.color} instagram={teamcards.insta} github={teamcards.github} twitter={teamcards.twitter} key={index} skill={teamcards.skill} img={teamcards.img}></TeamCards>
             ))}
           </div>
         </div>
