@@ -12,19 +12,22 @@
     font-family: text;
     src: url("./Fonts/googleFont.woff2");
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-bolder;
-  }
-  h1 {
-    @apply text-7xl;
-  }
-  p,
-  span {
-    @apply text-lg font-text;
-  }
+}
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bolder;
+}
+h1 {
+  @apply text-7xl;
+}
+p,
+span {
+  @apply text-lg font-text;
 }

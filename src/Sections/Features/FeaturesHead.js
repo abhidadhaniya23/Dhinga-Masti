@@ -38,8 +38,8 @@ const FeaturesHead = () => {
   return (
     <>
       <section className="relative w-full">
-        <h1 className="text-center pt-24">FEATURES</h1>
-        <div className="flex flex-wrap justify-center items-center mx-auto container px-16 pt-10">
+        <h1 className="pt-24 text-center">Features</h1>
+        <div className="container flex flex-wrap items-center justify-center px-16 pt-10 mx-auto">
           {cards.map((card, index) => (
             <Card title={card.title} icon={card.icon} color={card.color} key={index} index={index} desc={card.desc}></Card>
           ))}

@@ -24,7 +24,7 @@ const Header = () => {
       <motion.p variants={titleAnimate.description} initial="hidden" animate="show" className="text-center sm:w-3/5 sm:opacity-90 md:text-left ">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, iste suscipit minima consequuntur, adipisci sunt quis quos quisquam eveniet soluta
       </motion.p>
-      <motion.a href="#" variants={titleAnimate.button} initial="hidden" animate="show" className="z-30 flex flex-row items-center justify-center w-56 px-5 py-3 mt-10 text-2xl text-gray-900 duration-300 rounded-full cursor-pointer outline focus:outline-offset-4 outline-offset-0 outline-gray-200 font-bolder bg-gray-50">
+      <motion.a href="#games" variants={titleAnimate.button} initial="hidden" animate="show" className="z-30 flex flex-row items-center justify-center w-56 px-5 py-3 mt-10 text-2xl text-gray-900 duration-300 rounded-full cursor-pointer outline focus:outline-offset-4 outline-offset-0 outline-gray-200 font-bolder bg-gray-50">
         <img src={playBtn} alt="" className="w-[2rem] mr-4" />
         Play Games
       </motion.a>

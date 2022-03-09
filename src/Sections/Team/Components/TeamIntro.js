@@ -36,7 +36,7 @@ const TeamIntro = () => {
     },
     {
       name: "Vanshika Gupta",
-      skill: "Python Programming",
+      skill: "Python Programmer",
       color: "cyanColor",
       img: vanshika,
       twitter: "https://twitter.com/vanshika_0111",
@@ -48,7 +48,7 @@ const TeamIntro = () => {
   return (
     <>
       <section className="relative w-full bg-cover bg-IntroPatternPhone md:bg-IntroPatternScreen">
-        <h2 className="pt-24 text-5xl text-center text-white ">Our Team</h2>
+        <h1 className="pt-24 text-center text-white text ">Our Team</h1>
         <div className="container mx-auto ">
           <div className="flex flex-row flex-wrap items-center justify-center py-20 md:-ml-16">
             {team.map((teamcards, index) => (

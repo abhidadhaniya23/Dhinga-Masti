@@ -55,7 +55,7 @@ const MultipleGames = () => {
   ];
   return (
     <>
-      <div className="w-full pb-24">
+      <div id="games" className="w-full pb-24">
         <div className="container mx-auto">
           <h1 className="pt-16 pb-20 text-center"> Play Games </h1>
           {gamesData.map((game, index) => (
