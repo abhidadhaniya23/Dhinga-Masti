@@ -47,7 +47,7 @@ const TeamIntro = () => {
 
   return (
     <>
-      <section className="relative w-full bg-cover bg-IntroPatternPhone md:bg-IntroPatternScreen">
+      <section className="relative w-full bg-cover bg-center bg-IntroPatternPhone md:bg-IntroPatternScreen">
         <h1 className="pt-24 text-center text-white text ">Our Team</h1>
         <div className="container mx-auto ">
           <div className="flex flex-row flex-wrap items-center justify-center py-20 md:-ml-16">
