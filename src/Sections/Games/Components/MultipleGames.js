@@ -42,7 +42,7 @@ const MultipleGames = () => {
         },
         {
             title: "Math-Game",
-            desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas sapiente alias facere cum distinctio corporis sint iure tempora error ullam, explicabo expedita, recusandae dolorem deserunt ipsa dolores similique, nulla pariatur.",
+            desc: "The user can test their calculation skills through this app. You have 10 seconds to answer with either 0-9 on the keyboard or on-screen buttons. If you are able to give the right solution to the problem",
             link: "https://youth-avenue-2021.github.io/Toy_Curio_Games/Math-Game/index.html",
             img: img2,
         },
