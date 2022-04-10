@@ -4,8 +4,8 @@ const TeamCards = ({ name, skill, img, color, instagram, github, twitter }) => {
   return (
     <>
       <div className="w-10/12 md:w-[30%] group md:first:ml-56 h-[25rem] md:h-44 flex justify-center items-center flex-col md:flex-row bg-white rounded-lg m-5 overflow-hidden">
-        <div className="w-full md:w-[20rem] md:h-full overflow-hidden">
-          <img alt="team" className={`group-hover:scale-110 duration-500 md:w-full md:h-full h-[30rem] w-96 object-cover object-center`} src={img} />
+        <div className="w-full h-[40rem] md:w-[20rem] md:h-full overflow-hidden">
+          <img alt="team" className={`group-hover:scale-110 duration-500 md:w-full md:h-full`} src={img} />
         </div>
         <div className="flex flex-col items-center justify-around w-full h-full text-center md:justify-evenly md:items-start md:pl-5">
           <h2 className="text-3xl font-medium text-gray-900">{name}</h2>
