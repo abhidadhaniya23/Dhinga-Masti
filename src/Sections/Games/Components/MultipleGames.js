@@ -37,12 +37,7 @@ const MultipleGames = () => {
             desc: "2048 is an easy and fun puzzle game. Even if you don't love numbers you will love this game. It is played on a 4x4 grid using the arrows or W, A, S, D keys alternatively. Tiles with the same value that bump into one-another are merged.there is always some level of chance. If you beat the game and would like to master it, try to finish with a smaller score.",
             img: img6,
         },
-        {
-            title: "Color-Cubes",
-            desc: "Tap the cube carefully through each obstacle and your cube will switch color with some Powerups. You must follow the color pattern on each cube. And It's Totally Creative And Mind Sharp Game Ever.",
-            link: "https://youth-avenue-2021.github.io/Toy_Curio_Games/Color-Cubes/index.html",
-            img: img1,
-        },
+    
         {
             title: "Digital-Puzzle",
             desc: "Digital puzzle is a game in which the numbers are to be arranged in an ascending order. All you need to do is, move the blocks using arrow keys and finish the task. ",
@@ -66,6 +61,12 @@ const MultipleGames = () => {
             desc: "Eliminate four lines at once and you officially achieve a Tetris Line Clear. Before a Tetrimino reaches the bottom of the Matrix, you can move and rotate this shape to fit your desired position. Keep in mind that moving your Tetrimino shapes depends on which device you use to play Tetris",
             link: "https://youth-avenue-2021.github.io/Toy_Curio_Games/Tetris/index.html",
             img: img5,
+        },
+        {
+            title: "Color-Cubes",
+            desc: "Tap the cube carefully through each obstacle and your cube will switch color with some Powerups. You must follow the color pattern on each cube. And It's Totally Creative And Mind Sharp Game Ever.",
+            link: "https://youth-avenue-2021.github.io/Toy_Curio_Games/Color-Cubes/index.html",
+            img: img1,
         },
     ];
     return (
