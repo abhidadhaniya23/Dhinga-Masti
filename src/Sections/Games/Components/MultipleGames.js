@@ -7,14 +7,29 @@ import img4 from "../../../Assets/games/4.png";
 import img5 from "../../../Assets/games/5.png";
 import img6 from "../../../Assets/games/6.png";
 import img7 from "../../../Assets/games/7.png";
+import img8 from "../../../Assets/games/8.png";
+import img9 from "../../../Assets/games/9.png";
 
 const MultipleGames = () => {
     const gamesData = [
         {
             title: "Color-Game",
-            desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas sapiente alias facere cum distinctio corporis sint iure tempora error ullam, explicabo expedita, recusandae dolorem deserunt ipsa dolores similique, nulla pariatur.",
+            desc: "This  color game is very intresting. one color word is given from that you have to choose option for example , The text is Purple but text color is Red then you choose Red word from above buttons.",
             link: "https://youth-avenue-2021.github.io/Toy_Curio_Games/Color-Games/index.html",
             img: img3,
+        },
+        {
+            title:"Tower Building",
+            desc: "In every game player starts with 3 hp. Every time a Tower block is dropped player is deduct 1 hp; game ends when hp is depleted.Player is rewarded with 25 point for every succesful stacked blocks(Success).",
+            link: "https://www.towergame.app/",
+            img: img8, 
+        },
+        {
+           title: "1024-Cube Game",
+           desc: "1024 js game is powered by HTML5 and JavaScript, it is a 3D puzzle game with a colourful user interface. To play the game, you have to move the cube to the endpoint through the tile grid while also avoiding to fall into the holes in less than 1024 moves to beat the high score",
+           link: "https://js13kgames.com/games/1024-moves/index.html",
+           img: img9,
+
         },
         {
             title: "2048",
@@ -24,7 +39,7 @@ const MultipleGames = () => {
         },
         {
             title: "Color-Cubes",
-            desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas sapiente alias facere cum distinctio corporis sint iure tempora error ullam, explicabo expedita, recusandae dolorem deserunt ipsa dolores similique, nulla pariatur.",
+            desc: "Tap the cube carefully through each obstacle and your cube will switch color with some Powerups. You must follow the color pattern on each cube. And It's Totally Creative And Mind Sharp Game Ever.",
             link: "https://youth-avenue-2021.github.io/Toy_Curio_Games/Color-Cubes/index.html",
             img: img1,
         },
