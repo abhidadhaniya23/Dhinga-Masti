@@ -26,7 +26,7 @@ const MultipleGames = () => {
         },
         {
            title: "1024-Cube Game",
-           desc: "1024 js game is powered by HTML5 and JavaScript, it is a 3D puzzle game with a colourful user interface. To play the game, you have to move the cube to the endpoint through the tile grid while also avoiding to fall into the holes in less than 1024 moves to beat the high score",
+           desc: "1024 is a 3D puzzle game with a colourful user interface. To play the game, you have to move the cube to the endpoint through the tile grid while also avoiding to fall into the holes in less than 1024 moves to beat the high score.",
            link: "https://js13kgames.com/games/1024-moves/index.html",
            img: img9,
 
