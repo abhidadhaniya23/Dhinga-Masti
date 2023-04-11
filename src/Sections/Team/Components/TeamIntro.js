@@ -2,6 +2,7 @@ import React from "react";
 import TeamCards from "./TeamCards";
 import abhi from "../../../Assets/Team/abhi.png";
 import vanshika from "../../../Assets/Team/vanshika.png";
+import jainil from "../../../Assets/Team/jainil.jpg";
 import rupen from "../../../Assets/Team/rupen.png";
 import vaidik from "../../../Assets/Team/vaidik.png";
 
@@ -17,13 +18,13 @@ const TeamIntro = () => {
       github: "https://github.com/rupen109",
     },
     {
-      name: "Vaidik Modi",
-      skill: "Database Technology",
+      name: "Jainil Joshi",
+      skill: "",
       color: "redPink",
-      img: vaidik,
-      twitter: "https://twitter.com/vaidik_modi",
-      insta: "https://www.instagram.com/ll_v_m_408_ll/",
-      github: "https://github.com/vaidik408",
+      img: jainil,
+      // twitter: "https://twitter.com/vaidik_modi",
+      // insta: "https://www.instagram.com/ll_v_m_408_ll/",
+      // github: "https://github.com/vaidik408",
     },
     {
       name: "Abhi Dadhaniya",
@@ -34,15 +35,6 @@ const TeamIntro = () => {
       insta: "https://www.instagram.com/_abhi_dadhaniya_/",
       github: "https://github.com/abhidadhaniya23",
     },
-    {
-      name: "Vanshika Gupta",
-      skill: "Python Programmer",
-      color: "cyanColor",
-      img: vanshika,
-      twitter: "https://twitter.com/vanshika_0111",
-      insta: "https://www.instagram.com/vanshika_0111/",
-      github: "https://github.com/vanshika0111",
-    },
   ];
 
   return (
@@ -52,7 +44,16 @@ const TeamIntro = () => {
         <div className="container mx-auto ">
           <div className="flex flex-row flex-wrap items-center justify-center py-20 md:-ml-16">
             {team.map((teamcards, index) => (
-              <TeamCards name={teamcards.name} color={teamcards.color} instagram={teamcards.insta} github={teamcards.github} twitter={teamcards.twitter} key={index} skill={teamcards.skill} img={teamcards.img}></TeamCards>
+              <TeamCards
+                name={teamcards.name}
+                color={teamcards.color}
+                instagram={teamcards?.insta}
+                github={teamcards?.github}
+                twitter={teamcards?.twitter}
+                key={index}
+                skill={teamcards.skill}
+                img={teamcards.img}
+              ></TeamCards>
             ))}
           </div>
         </div>

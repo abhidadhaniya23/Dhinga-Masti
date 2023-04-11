@@ -1,6 +1,7 @@
 import FeaturesHead from "../Features/FeaturesHead";
 import MultipleGames from "../Games/Components/MultipleGames";
 import Quote from "../Quote/Quote";
+import ReadingLight from "../ReadingLight";
 
 const BodyComponent = () => {
   return (
@@ -9,6 +10,7 @@ const BodyComponent = () => {
         <div className="backdrop-blur-3xl">
           <FeaturesHead />
           <Quote />
+          <ReadingLight />
           <MultipleGames />
         </div>
       </div>
